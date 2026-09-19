@@ -1,0 +1,143 @@
+.hero{
+  
+  position: relative;
+  min-height: 750px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.hero_background{
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  z-index: 0;
+}
+
+.hero_content{
+  
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 163px;
+  margin-right: 163px;
+}
+
+.hero_profile-container{
+  position: relative;
+
+  width: 112px;
+  height: 112px;
+  margin-top: 120px;
+  margin-bottom: 56px;
+}
+.hero_profile{
+  width: 96px;
+  height: 96px;
+
+  top: 8px;
+  left: 8px;
+
+  object-fit: cover;
+  border-radius: 999px;
+
+  border: 2px solid #E3646E;
+  
+}
+
+.hero_profile_icon{
+  position: absolute;
+
+  width: 32px;
+  height: 32px;
+
+  top: 78px;
+  left: 78px;
+
+  z-index: 2;
+  
+}
+
+
+.hero_intro{
+  font-family: var(--font-family-subtitle);
+  font-size: var(--font-size-subtitle);
+  font-weight: var(--font-weight-regular);
+  /* cores*/
+  color:#C0C4CE;
+
+  margin-bottom: 8px;
+}
+
+.hero_intro span{
+  color:#E3646E ;
+}
+.hero_title{
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-title-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+  /* cores*/
+  color: #E2E4E9;
+
+  margin-bottom: 20px;
+}
+
+.hero_description{
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-text-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text);
+  /* cores*/
+  color: #878EA1;
+}
+
+.hero_technologies{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 80px;
+  margin-bottom: 94px;
+}
+
+.hero_technology{
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  background-color:var( --color-social-button) ;
+}
+
+.hero_technology span{
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-text-md);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-text);
+
+  color: #C0C4CE;
+}
+
+.hero_arrow{
+  width: 32px;
+  height: 32px;
+  margin-bottom: 57px;
+}

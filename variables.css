@@ -1,0 +1,69 @@
+:root{
+
+   /* ==========================
+     Cores Cards
+  ========================== */
+  --color-background:#0D0E11;
+  --color-card-project:#292C34;
+  --color-card-hover:#292C34;
+  --color-card-border:#292C34;
+
+   /* ==========================
+     Cores Social Button
+  ========================== */
+  
+  --color-social-button:#292C34;
+  --color-button-hover:#3996DB;
+
+
+
+
+   /* ==========================
+     Font Family
+  ========================== */
+
+  --font-family-title:"Asap", sans-serif;
+  --font-family-subtitle:"Inconsolata", monospace;
+  --font-family-text:"Maven Pro", sans-serif;
+
+   /* ==========================
+     Font Size
+  ========================== */
+
+  --font-size-title-lg:56px;
+  --font-size-title-md:24px;
+  --font-size-title-sm:16px;
+
+  --font-size-subtitle:20px;
+
+  --font-size-text-md:16px;
+  --font-size-text-sm:14px;
+
+  /* ==========================
+     Font Weight
+  ========================== */
+
+  --font-weight-regular:400;
+  --font-weight-bold:700;
+
+  /* ==========================
+     Line Height
+  ========================== */
+
+  --line-height-title:120%;
+  --line-height-subtitle:120%;
+  --line-height-text:140%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
